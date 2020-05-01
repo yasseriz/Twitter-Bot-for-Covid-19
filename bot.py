@@ -20,7 +20,8 @@ except:
     print('Error while authenticating API')
     sys.exit(1)
 
-response = requests.get('https://www.worldometers.info/coronavirus/country/malaysia/')
+url = 'https://www.worldometers.info/coronavirus/country/malaysia/'
+response = requests.get(url)
 soup = BeautifulSoup(response.content, 'lxml')
 
 # Obtaining daily data
