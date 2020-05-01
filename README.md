@@ -12,3 +12,4 @@ Data Source: https://www.worldometers.info/coronavirus/country/malaysia/
 You can change the country by changing the country in the url variable in bot.py
 
 # Results
+![output](../master/Pictures/tempFileForShare_20200501-235947.jpg)
